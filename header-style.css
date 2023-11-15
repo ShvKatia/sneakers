@@ -1,0 +1,49 @@
+#h001 {
+    background-color: #FFFFFF;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    height: 22px;
+}
+
+.header_logo_black {
+    width: 215px;
+}
+
+.header_social_list {
+    flex-direction: row;
+    width: 262px;
+    gap: 24px;
+}
+
+
+
+
+
+
+@media (max-width: 1439px) {
+    .header_nav {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
