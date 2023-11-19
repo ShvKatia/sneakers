@@ -23,7 +23,15 @@ ul {
 
 li {
     display: flex;
-    height: 22px;
+    height: 20px;
+}
+
+.header_social_card {
+    color: var(--black, #121723);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .header_logo_black {
@@ -32,7 +40,8 @@ li {
 
 .header_social_list {
     flex-direction: row;
-    width: 262px;
+    width: 264px;
+    height: 20px;
     gap: 24px;
 }
 

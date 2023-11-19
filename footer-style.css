@@ -42,6 +42,14 @@
     gap: 24px;
 }
 
+.footer_social_card {
+    color: var(--white-100, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .footer_text {
     display: flex;
     flex-direction: column;
